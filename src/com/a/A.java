@@ -12,4 +12,11 @@ public class A {
         int c = a + b;
         System.out.println(c);
     }
+    private static void testTow(String age){
+    	int a = 1;
+    	int b = 3;
+    	int c = a * b;
+    	System.out.println(c);
+    	System.out.println(age);
+    }
 }
